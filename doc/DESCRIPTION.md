@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+ezBookkeeping is a lightweight, self-hosted personal finance app with a sleek, user-friendly interface and powerful bookkeeping features. Built with simplicity and portability in mind.
