@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "ezbookkeeping"
 name = "ezBookkeeping"
-description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.en = "Self-hosted personal finance app"
+description.fr = "Gestion financière personnelle"
 
 version = "0.10.0~ynh1"
 
@@ -14,6 +14,7 @@ maintainers = ["eric_G"]
 [upstream]
 license = "MIT"
 website = "https://ezbookkeeping.mayswind.net/"
+demo ="https://ezbookkeeping-demo.mayswind.net/"
 admindoc = "https://ezbookkeeping.mayswind.net/"
 code = "https://github.com/mayswind/ezbookkeeping"
 
@@ -36,32 +37,13 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/example"
+    default = "/ezbookkeeping"
 
     [install.init_main_permission]
     type = "group"
     default = "visitors"
 
-    [install.language]
-    ask.en = "Choose the application language"
-    ask.fr = "Choisissez la langue de l'application"
-    type = "select"
-    choices = ["fr", "en"]
-    default = "fr"
-
-    [install.admin]
-    type = "user"
-
-    [install.password]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
-    # Note that user-provided passwords questions are not automatically saved as setting
-    help.en = "Use the help field to add an information for the admin about this question."
-    help.fr = "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
-    type = "password"
-
 [resources]
-    # See the packaging documentation for the full set
-    # of explanation regarding the behavior and properties for each of those
 
     [resources.sources]
 

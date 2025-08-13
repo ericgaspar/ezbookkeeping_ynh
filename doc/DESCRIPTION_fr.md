@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+ezBookkeeping est une application de gestion financière personnelle légère et auto-hébergée, dotée d'une interface élégante et conviviale et de puissantes fonctionnalités de comptabilité. Conçue dans un souci de simplicité et de portabilité.
